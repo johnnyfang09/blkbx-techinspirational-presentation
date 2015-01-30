@@ -12,6 +12,9 @@ body {
 	color:#e2e2e2;
 	letter-spacing:1px;
 	position:relative;
+	background-image:url(../images/topGlow.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
 }
 
 li {
@@ -65,15 +68,16 @@ a:hover {
 	width:100%;
 	position:relative;
 	text-align:center;
+	border-bottom:dotted 2px orange;
 }
 
 #main_wrapper {
 	width:100%;
 	height:100%;
 	position:relative;
-	border-top:dotted 2px orange;
 	margin-top:0px;
 	padding-top:20px;
+	z-index:101;
 }
 
 #content_wrapper {
