@@ -44,7 +44,12 @@ function showPrevSlide(){
 
 	}
 
+	if($(".content.selected").hasClass("last")) {
+		console.log("true");
+		$("#last_square").css({"display":("block")}); 
+	}
 
+	else($("#last_square").css({"display":("none")}));
 }
 
 function showNextSlide(){
@@ -70,5 +75,11 @@ function showNextSlide(){
 
 	}
 
+	if($(".content.selected").hasClass("last")) {
+		console.log("true");
+		$("#last_square").css({"display":("block")});
+	}
+
+	else($("#last_square").css({"display":("none")}));
 }
 
